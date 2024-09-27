@@ -1,0 +1,63 @@
+# IDE-specific files
+/.idea
+/.vscode
+*.iml
+*.ipr
+*.iws
+*.sublime-workspace
+
+# Maven specific files
+.mvn/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Logs and OS-generated files
+*.log
+.DS_Store
+*.sw?
+*~
+
+# Eclipse/IntelliJ specific
+.classpath
+.project
+.settings/
+.springBeans
+.factorypath
+.gradle
+.sts4-cache
+.metadata
+.recommenders
+
+# VS Code-specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Build and output directories
+bin/
+build/
+out/
+_site/
+
+# Other generated files
+*.jar
+*.war
+*.class
+MANIFEST.MF
+interpolated*.xml
+dependency-reduced-pom.xml
+flattened-pom.xml
+.dump.rdb
+
+# Ignore secrets and sensitive information
+secrets.yml
+overridedb.*
+
+# Ignore backup files
+*#
+.#*
